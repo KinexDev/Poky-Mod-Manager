@@ -57,6 +57,7 @@ void FixedUpdate(float deltaTime) <- called on fixed update
 
 and then you will need to register the new mod with using bepinex.
 
+IT MUST BE REGISTERED IN START NOT AWAKE!!!
 
 ```cs
 using BepInEx;
@@ -67,7 +68,7 @@ namespace Mod
     [BepInPlugin(MOD_GUID, MOD_NAME, MOD_VERSION)]
     public class Mod : BaseUnityPlugin
     {
-        private void Awake()
+        private void Start()
         {
             POKManager.RegisterMod(new TemplateMod(), MOD_NAME, MOD_VERSION, MOD_DESCRIPTION);
         }
@@ -120,7 +121,7 @@ namespace Mod
     [BepInPlugin(MOD_GUID, MOD_NAME, MOD_VERSION)]
     public class Mod : BaseUnityPlugin
     {
-        private void Awake()
+        private void Start()
         {
             POKManager.RegisterMod(new TemplateMod(), MOD_NAME, MOD_VERSION, MOD_DESCRIPTION, "TestInt", "TestFloat", "TestBool");
         }
