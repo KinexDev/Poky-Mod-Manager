@@ -21,4 +21,4 @@ Poky is still in development so expect bugs.
 
 Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
 
-You should have a project already set up with bepinex references, if you need help click [![Here](here)](https://discord.gg/NM7kQXZH).
+You should have a project already set up with bepinex references, if you need help click [![here]](https://discord.gg/NM7kQXZH).
