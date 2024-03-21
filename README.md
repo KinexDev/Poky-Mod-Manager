@@ -8,6 +8,8 @@ Poky Mod Manager is a simple mod manager for peaks of yore made in bepinex, it a
 
 Poky is still in development so expect bugs.
 
+POK is the abbreviation to poky 🙂
+
 ![](https://github.com/KinexDev/Poky-Mod-Manager/blob/main/POKManager.gif)
 
 # Examples
