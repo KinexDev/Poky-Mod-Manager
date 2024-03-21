@@ -77,10 +77,15 @@ namespace Mod
 
 POKManager.RegisterMod is a function that adds the mod into the mod manager.
 It has 4 parameters,
-The mod (ModClass), 
-mod name (string), 
-mod version (string), 
-mod description (string) 
+
+The mod (ModClass),
+
+mod name (string),
+
+mod version (string),
+
+mod description (string), 
+
 and then mod properties (param string[])
 
 only three data types are currently supported with mod properties - Ints, floats and booleans.
