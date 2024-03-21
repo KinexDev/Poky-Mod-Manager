@@ -76,6 +76,7 @@ namespace Mod
 ```
 
 POKManager.RegisterMod is a function that adds the mod into the mod manager.
+
 It has 4 parameters,
 
 The mod (ModClass),
@@ -108,7 +109,7 @@ Ints and floats are required to have the attribute "POKRange", it has 2 paramete
 
 There is also another attribute called "DoNotSave", this will not save the modified values.
 
-This is how you would register with the mod properties,
+This is how you would register the mod properties,
 
 ```cs
 using BepInEx;
@@ -126,3 +127,5 @@ namespace Mod
     }
 }
 ```
+
+after the mod properties are registered you are all good.
