@@ -13,6 +13,6 @@ Poky is still in development so expect bugs.
 
 # Documentation
 
-To see the documentation, click ![here](https://discord.gg/NM7kQXZH).
+Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
 
-Template for mod is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
+To see the documentation, click ![here](https://discord.gg/NM7kQXZH).
