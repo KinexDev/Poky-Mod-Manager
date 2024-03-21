@@ -21,7 +21,9 @@ Poky is still in development so expect bugs.
 Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
 
 If you need help setting up bepinex look at this [![resource](resource)](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/1_setup.html).
+
 You will also need to add a reference to the Poky Mod Manager dll.
+
 To create a mod, you will need to create a new mod class.
 
 ```cs
