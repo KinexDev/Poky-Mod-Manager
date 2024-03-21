@@ -57,6 +57,16 @@ void Update(float deltaTime) <- called on update
 void FixedUpdate(float deltaTime) <- called on fixed update
 ```
 
+you can also print with 3 different log types,
+
+```
+print()
+
+printWarning()
+
+printError()
+```
+
 and then you will need to register the new mod with using bepinex.
 
 IT MUST BE REGISTERED IN START NOT AWAKE!!!
