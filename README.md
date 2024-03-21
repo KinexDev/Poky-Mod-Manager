@@ -4,7 +4,7 @@
 ![](https://github.com/KinexDev/Poky-Mod-Manager/blob/main/PokyModManager.png)
 
 # Poky Mod Manager
-Poky Mod Manager is a simple mod manager for peaks of yore, it allows enabling, disabling and configurating mods easily.
+Poky Mod Manager is a simple mod manager for peaks of yore made in bepinex, it allows enabling, disabling and configurating mods easily.
 
 Poky is still in development so expect bugs.
 
@@ -21,4 +21,3 @@ Poky is still in development so expect bugs.
 
 Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
 
-To see the documentation, click ![here](https://discord.gg/NM7kQXZH).
