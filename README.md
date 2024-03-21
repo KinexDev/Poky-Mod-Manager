@@ -8,3 +8,7 @@ Poky is still in development so expect bugs.
 
 
 ![](https://github.com/KinexDev/Poky-Mod-Manager/blob/main/POKManager.gif)
+
+# Documentation
+
+To see the documentation, click ![here](https://discord.gg/NM7kQXZH).
