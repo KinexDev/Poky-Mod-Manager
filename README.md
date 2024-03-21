@@ -11,6 +11,10 @@ Poky is still in development so expect bugs.
 
 # Examples
 
+![Custom FOV](https://github.com/KinexDev/CustomFOV).
+
+![Freecam](https://github.com/KinexDev/Freecam).
+
 # Documentation
 
 Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
