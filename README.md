@@ -128,4 +128,4 @@ namespace Mod
 }
 ```
 
-after the mod properties are registered you are all good.
+and thats it.
