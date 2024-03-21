@@ -128,4 +128,4 @@ namespace Mod
 }
 ```
 
-and thats it.
+and thats then the rest is up to you. 👋
