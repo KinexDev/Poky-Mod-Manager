@@ -1,4 +1,4 @@
-[![Download](https://img.shields.io/badge/-Download-blue.svg)](https://discord.gg/x5Kr3Cxb)
+[![Download](https://img.shields.io/badge/-Download-blue.svg)](https://github.com/KinexDev/Poky-Mod-Manager/releases)
 [![Discord](https://img.shields.io/badge/-Discord-blue.svg)](https://discord.gg/x5Kr3Cxb)
 
 # Poky Mod Manager
