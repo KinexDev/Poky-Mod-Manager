@@ -39,20 +39,20 @@ the mod class has a field called "RunUpdateOnMenu", this will tell the mod manag
 
 the mod manager can override many built in functions into mod class,
 
-```cs
-public override void OnEnabled() <- called when the game is started/when the mod is enabled
+```
+void OnEnabled() <- called when the game is started/when the mod is enabled
         
-public override void OnDisabled() <- called when the game is started/when the mod is disabled
+void OnDisabled() <- called when the game is started/when the mod is disabled
         
-public override void SceneChange(int sceneIndex) <- called on scene change, is ran even if the mod is disabled
+void SceneChange(int sceneIndex) <- called on scene change, is ran even if the mod is disabled
         
-public override void GUIUpdate() <- called on OnGUI
+void GUIUpdate() <- called on OnGUI
         
-public override void Start() <- called on start
+void Start() <- called on start
         
-public override void Update(float deltaTime) <- called on update
+void Update(float deltaTime) <- called on update
         
-public override void FixedUpdate(float deltaTime) <- called on fixed update
+void FixedUpdate(float deltaTime) <- called on fixed update
 ```
 
 and then you will need to register the new mod with using bepinex.
