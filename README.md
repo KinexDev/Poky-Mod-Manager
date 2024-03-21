@@ -90,6 +90,8 @@ mod description (string),
 
 and then mod properties (param string[])
 
+the description can only go up to 103 characters,
+
 only three data types are currently supported with mod properties - Ints, floats and booleans.
 
 ```cs
