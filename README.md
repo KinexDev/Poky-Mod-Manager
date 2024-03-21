@@ -11,9 +11,9 @@ Poky is still in development so expect bugs.
 
 # Examples
 
-![Custom FOV](https://github.com/KinexDev/CustomFOV).
+![Custom FOV](https://github.com/KinexDev/CustomFOV)
 
-![Freecam](https://github.com/KinexDev/Freecam).
+![Freecam](https://github.com/KinexDev/Freecam)
 
 # Documentation
 
