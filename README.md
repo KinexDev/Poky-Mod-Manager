@@ -8,7 +8,6 @@ Poky Mod Manager is a simple mod manager for peaks of yore made in bepinex, it a
 
 Poky is still in development so expect bugs.
 
-
 ![](https://github.com/KinexDev/Poky-Mod-Manager/blob/main/POKManager.gif)
 
 # Examples
@@ -22,7 +21,7 @@ Poky is still in development so expect bugs.
 Template for poky mods is available ![here](https://github.com/KinexDev/Poky-Mod-Template).
 
 If you need help setting up bepinex look at this [![resource](resource)](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/1_setup.html).
-
+You will also need to add a reference to the Poky Mod Manager dll.
 To create a mod, you will need to create a new mod class.
 
 ```cs
@@ -36,7 +35,28 @@ namespace Mod
 }
 ```
 
+the mod class has a field called "RunUpdateOnMenu", this will tell the mod manager if to run update in the menu, and another field called "Enabled", this is just says if the mod is enabled or not.
+
+the mod manager can override many built in functions into mod class,
+
+```cs
+public override void OnEnabled() <- called when the game is started/when the mod is enabled
+        
+public override void OnDisabled() <- called when the game is started/when the mod is disabled
+        
+public override void SceneChange(int sceneIndex) <- called on scene change, is ran even if the mod is disabled
+        
+public override void GUIUpdate() <- called on OnGUI
+        
+public override void Start() <- called on start
+        
+public override void Update(float deltaTime) <- called on update
+        
+public override void FixedUpdate(float deltaTime) <- called on fixed update
+```
+
 and then you will need to register the new mod with using bepinex.
+
 
 ```cs
 using BepInEx;
